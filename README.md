@@ -151,7 +151,7 @@ The following abbreviations are used in the datasets :
 ...     various prototyping directions -->
 
 ![Alt text](methodology.png)
-
+<!-- 
 +----------------------------+
 |       Data Collection       |
 +----------------------------+
@@ -172,106 +172,107 @@ The following abbreviations are used in the datasets :
             |
             v
 +-----------------------------+    +-----------------------------+    +-----------------------------+
-|     Data Exploration        |--->|   Feature Engineering        |--->|    Model Initialization     |
-+-----------------------------+    +-----------------------------+    +-----------------------------+
-| - Perform EDA to identify   |    | - Create new features based  |    | - Select models for training|
-|   key trends and patterns   |    |   on insights from EDA       |    | - Initialize model parameters|
+<!-- |     Data Exploration        |-|   Feature Engineering        |--->|    Model Initialization     | -->
+<!-- +-----------------------------+    +-----------------------------+    +-----------------------------+
+| - Perform EDA to identify   |    | - Create new features based  |    | - Select models for training|  -->
+<!-- |   key trends and patterns   |    |   on insights from EDA       |    | - Initialize model parameters|
 | - Visualize data with plots |    | - Transform existing data    |    | - Set up training pipelines |
 |   and charts                |    |   to enhance predictive power|    |                             |
 | - Identify outliers and     |    | - Scale and encode features  |    |                             |
-|   data distribution         |    |   as needed                  |    |                             |
+|   data distribution         |    |   as needed                  |    |                             | -->
 +-----------------------------+    +-----------------------------+    +-----------------------------+
             |                            |                                    |
-            v                            v                                    v
-+----------------------------+    +-----------------------------+    +-----------------------------+
-|      Model Selection        |--->|      Model Evaluation        |--->|        Model Fitting         |
-+----------------------------+    +-----------------------------+    +-----------------------------+
-| - Compare different models  |    | - Train models on training   |    | - Fit models on training     |
-|   (e.g., Decision Tree,     |    |   dataset                    |    |   dataset                    |
+            <!-- v                            v                                    v
+<!-- <!-- <!-- +----------------------------+    +-----------------------------+    +-----------------------------+
+|      Model Selection        |-|      Model Evaluation        |-|        Model Fitting         |  
+<!-- +----------------------------+    +-----------------------------+    +-----------------------------+  -->
+<!-- | - Compare different models  |    | - Train models on training   |    | - Fit models on training     |  -->
+<!-- |   (e.g., Decision Tree,     |    |   dataset                    |    |   dataset                    |
 |   etc.)                     |    | - Use cross-validation to    |    | - Optimize model parameters  |
 | - Select the best models    |    |   assess performance         |    |   and reduce overfitting     |
 |   based on initial metrics  |    | - Evaluate metrics such as   |    | - Perform hyperparameter     |
-|                             |    |   accuracy, RMSE, MAE, etc.  |    |   tuning                     |
-+----------------------------+    +-----------------------------+    +-----------------------------+
+|                             |    |   accuracy, RMSE, MAE, etc.  |    |   tuning                     |  -->
+<!-- +----------------------------+    +-----------------------------+    +-----------------------------+
             |                            |                                    |
             v                            v                                    v
 +----------------------------+    +-----------------------------+
-|        Model Tuning         |--->| Model Deployment & Monitoring|
-+----------------------------+    +-----------------------------+
+|        Model Tuning         |-| Model Deployment & Monitoring|
+<!-- +----------------------------+    +-----------------------------+
 | - Fine-tune model using     |    | - Deploy the model into      |
 |   validation set results    |    |   production environment     |
 | - Perform feature selection |    | - Monitor model performance  |
 | - Re-train model if         |    | - Update the model as new    |
 |   necessary                 |    |   data becomes available     |
-+----------------------------+    +-----------------------------+
++----------------------------+    +-----------------------------+ --> 
 
 
 
 ### Organization
 
 #### Repository 
-├── `LICENSE`
-│   - Project license
-├── `Makefile`
-│   - Automation script for the project
-├── `README.md`
-│   - Project landing page (this page)
-├── `conda.yml`
-│   - Conda environment specification
-├── `data`
-│   - Contains link to a copy of the dataset (stored in a publicly accessible Google Drive folder)
-│   - Saved copy of aggregated/processed data as long as those are not too large (> 10 MB)
-│   ├── `essex_map.json`
-│   ├── `pd_count_points_cleaned.csv`
-│   ├── `pd_raw_count_cleaned.csv`
-│   ├── `uk_data`
-│   │   ├── `dft_traffic_counts_raw_counts.csv`
-│   │   └── `local_authority_traffic.csv`
-│   ├── `uk_shape.shp`
-│   └── `uk_shapefiles_by_counties`
-│       ├── `TermsAndConditions.html`
-│       ├── `infuse_cnty_lyr_2011_clipped.dbf`
-│       ├── `infuse_cnty_lyr_2011_clipped.prj`
-│       ├── `infuse_cnty_lyr_2011_clipped.shp`
-│       └── `infuse_cnty_lyr_2011_clipped.shx`
-├── `data_dictionary.md`
-│   - Contains data dictionary for the project
-├── `docs`
-│   - Contains the final report which summarizes the project
-│   └── `figures`
-│       └── `project-flowchart.svg`
-├── `model`
-│   - Joblib dump of final model/model object
-│   └── `sentiment-model.pkl`
-├── `notebooks`
-│   - Contains all final notebooks involved in the project
-│   ├── `01-data-loading-cleaning.ipynb`
-│   ├── `02-eda.ipynb`
-│   ├── `03-pre-processing.ipynb`
-│   ├── `04-modelling.ipynb`
-│   ├── `05-findings.ipynb`
-├── `references`
-│   - Contains papers/tutorials used in the project
-│   └── `papers.md`
-├── `src`
-│   - Contains the project source code (refactored from the notebooks)
-│   ├── `__init__.py`
-│   ├── `data`
-│   │   ├── `__init__.py`
-│   │   └── `make_dataset.py`
-│   ├── `features`
-│   │   ├── `__init__.py`
-│   │   └── `build_features.py`
-│   ├── `models`
-│   │   ├── `__init__.py`
-│   │   ├── `predict_model.py`
-│   │   └── `train_model.py`
-│   └── `visualization`
-│       ├── `__init__.py`
-│       └── `visualize.py`
-├── `topo_eer.json`
-├── `topo_wpc.json`
-└── `traffic_prediction_presentation.pptx`
+├
+- `LICENSE`
+  - Project license
+- `Makefile`
+  - Automation script for the project
+- `README.md`
+  - Project landing page (this page)
+- `conda.yml`
+  - Conda environment specification
+- `data`
+  - Contains link to a copy of the dataset (stored in a publicly accessible Google Drive folder)
+  - Saved copy of aggregated/processed data as long as those are not too large (> 10 MB)
+  - `essex_map.json`
+  - `pd_count_points_cleaned.csv`
+  - `pd_raw_count_cleaned.csv`
+  - `uk_data`
+    - `dft_traffic_counts_raw_counts.csv`
+    - `local_authority_traffic.csv`
+  - `uk_shape.shp`
+  - `uk_shapefiles_by_counties`
+    - `TermsAndConditions.html`
+    - `infuse_cnty_lyr_2011_clipped.dbf`
+    - `infuse_cnty_lyr_2011_clipped.prj`
+    - `infuse_cnty_lyr_2011_clipped.shp`
+    - `infuse_cnty_lyr_2011_clipped.shx`
+- `data_dictionary.md`
+  - Contains data dictionary for the project
+- `docs`
+  - Contains the final report which summarizes the project
+  - `figures`
+    - `project-flowchart.svg`
+- `model`
+  - Joblib dump of final model/model object
+  - `sentiment-model.pkl`
+- `notebooks`
+  - Contains all final notebooks involved in the project
+  - `01-data-loading-cleaning.ipynb`
+  - `02-eda.ipynb`
+  - `03-pre-processing.ipynb`
+  - `04-modelling.ipynb`
+  - `05-findings.ipynb`
+- `references`
+  - Contains papers/tutorials used in the project
+  - `papers.md`
+- `src`
+  - Contains the project source code (refactored from the notebooks)
+  - `__init__.py`
+  - `data`
+    - `__init__.py`
+    - `make_dataset.py`
+  - `features`
+    - `__init__.py`
+    - `build_features.py`
+  - `models`
+    - `__init__.py`
+    - `predict_model.py`
+    - `train_model.py`
+  - `visualization`
+    - `__init__.py`
+    - `visualize.py`
+- `topo_eer.json`
+- `topo_wpc.json`
+- `traffic_prediction_presentation.pptx`
 
 ... 14 directories, 38 files
 
