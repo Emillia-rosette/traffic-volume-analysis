@@ -7,7 +7,7 @@ Traffic congestion is a growing issue in urban areas, resulting in longer travel
 
 ### Define the problem
 
-The main challenge addressed by this project is the necessity to analyze and predict traffic patterns to help local autories, communiters, city planners and policymakers optimize traffic flow and infrastructure usage. Due to the complexity of urban traffic systems, influenced by factors such as road length, vehicle types, time of day, and geographic region, a data-driven approach is essential. Understanding these dynamics enables stakeholders to make informed decisions to ease congestion, improve safety, and reduce the environmental impact of road traffic.
+The main challenge addressed by this project is the necessity to analyze and predict traffic patterns to help local autories, communuters, city planners and policymakers optimize traffic flow and infrastructure usage. Due to the complexity of urban traffic systems, influenced by factors such as road length, vehicle types, time of day, and geographic region, a data-driven approach is essential. Understanding these dynamics enables stakeholders to make informed decisions to ease congestion, improve safety, and reduce the environmental impact of road traffic.
 
 ### Data science opportunity
 
@@ -20,8 +20,6 @@ By using machine learning algorithms and statistical analysis, we can accomplish
 - Resource Optimization: Assisting in the efficient allocation of resources, such as traffic lights, road maintenance schedules, and public transportation services, by understanding traffic demand dynamics.
 
 <!-- ### Key takeaways -->
-
-
 
 ### Datasets Overview
 
