@@ -149,12 +149,11 @@ The following abbreviations are used in the datasets :
 ...     various data processing steps
 ...     various modelling directions
 ...     various prototyping directions -->
-
 +----------------------------+
-|       Data Collection      |
+|       Data Collection       |
 +----------------------------+
-| - Download data from DDT   |
-| - Load raw traffic csv     |
+| - Download data from DDT    |
+| - Load raw traffic CSV      |
 +----------------------------+
             |
             v
@@ -169,39 +168,40 @@ The following abbreviations are used in the datasets :
 +----------------------------+
             |
             v
-+----------------------------+        +-----------------------------+        +-----------------------------+
-|    Data Exploration        |  --->  |    Feature Engineering       |  --->  |     Model Initialization     |
-+----------------------------+        +-----------------------------+        +-----------------------------+
-| - Perform EDA to identify  |        | - Create new features based  |        | - Select models for training |
-|   key trends and patterns  |        |   on insights from EDA       |        | - Initialize model parameters|
-| - Visualize data with plots|        | - Transform existing data    |        | - Set up training pipelines  |
-|   and charts               |        |   to enhance predictive power|        |                             |
-| - Identify outliers and    |        | - Scale and encode features  |        |                             |
-|   data distribution        |        |   as needed                  |        |                             |
-+----------------------------+        +-----------------------------+        +-----------------------------+
-            |
-            v
-+----------------------------+        +-----------------------------+        +-----------------------------+
-|      Model Selection       |  --->  |      Model Evaluation        |  --->  |        Model Fitting         |
-+----------------------------+        +-----------------------------+        +-----------------------------+
-| - Compare different models |        | - Train models on training   |        | - Fit models on training     |
-|   (e.g. classification,    |        |   dataset                    |        |   dataset                    |
-|   , Decision Tree, etc. )  |        | - Use cross-validation to    |        | - Optimize model parameters  |
-| - Select the best models   |        |   assess performance         |        |   and reduce overfitting     |
-|   based on initial metrics |        | - Evaluate metrics such as   |        | - Perform hyperparameter     |
-|                            |        |   accuracy, RMSE, MAE, etc.  |        |   tuning                     |
-+----------------------------+        +-----------------------------+        +-----------------------------+
-            |
-            v
-+----------------------------+        +-----------------------------+
-|       Model Tuning         |  --->  |  Model Deployment & Monitoring|
-+----------------------------+        +-----------------------------+
-| - Fine-tune model using    |        | - Deploy the model into      |
-|   validation set results   |        |   production environment     |
-| - Perform feature selection|        | - Monitor model performance  |
-| - Re-train model if        |        | - Update the model as new    |
-|   necessary                |        |   data becomes available     |
-+----------------------------+        +-----------------------------+
++-----------------------------+    +-----------------------------+    +-----------------------------+
+|     Data Exploration        |--->|   Feature Engineering        |--->|    Model Initialization     |
++-----------------------------+    +-----------------------------+    +-----------------------------+
+| - Perform EDA to identify   |    | - Create new features based  |    | - Select models for training|
+|   key trends and patterns   |    |   on insights from EDA       |    | - Initialize model parameters|
+| - Visualize data with plots |    | - Transform existing data    |    | - Set up training pipelines |
+|   and charts                |    |   to enhance predictive power|    |                             |
+| - Identify outliers and     |    | - Scale and encode features  |    |                             |
+|   data distribution         |    |   as needed                  |    |                             |
++-----------------------------+    +-----------------------------+    +-----------------------------+
+            |                            |                                    |
+            v                            v                                    v
++----------------------------+    +-----------------------------+    +-----------------------------+
+|      Model Selection        |--->|      Model Evaluation        |--->|        Model Fitting         |
++----------------------------+    +-----------------------------+    +-----------------------------+
+| - Compare different models  |    | - Train models on training   |    | - Fit models on training     |
+|   (e.g., Decision Tree,     |    |   dataset                    |    |   dataset                    |
+|   etc.)                     |    | - Use cross-validation to    |    | - Optimize model parameters  |
+| - Select the best models    |    |   assess performance         |    |   and reduce overfitting     |
+|   based on initial metrics  |    | - Evaluate metrics such as   |    | - Perform hyperparameter     |
+|                             |    |   accuracy, RMSE, MAE, etc.  |    |   tuning                     |
++----------------------------+    +-----------------------------+    +-----------------------------+
+            |                            |                                    |
+            v                            v                                    v
++----------------------------+    +-----------------------------+
+|        Model Tuning         |--->| Model Deployment & Monitoring|
++----------------------------+    +-----------------------------+
+| - Fine-tune model using     |    | - Deploy the model into      |
+|   validation set results    |    |   production environment     |
+| - Perform feature selection |    | - Monitor model performance  |
+| - Re-train model if         |    | - Update the model as new    |
+|   necessary                 |    |   data becomes available     |
++----------------------------+    +-----------------------------+
+
 
 
 ### Organization
