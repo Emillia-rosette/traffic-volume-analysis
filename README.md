@@ -274,11 +274,6 @@ The following abbreviations are used in the datasets :
 - `topo_wpc.json`
 - `traffic_prediction_presentation.pptx`
 
-... 14 directories, 38 files
-
-
-.... 14 directories, 38 files
-
 ### Credits & References
 
 - Department for Transport. (n.d.) All Traffic Data Metadata. Available at: https://storage.googleapis.com/dft-statistics/road-traffic/all-traffic-data-metadata.pdf (2024).
