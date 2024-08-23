@@ -19,14 +19,9 @@ By using machine learning algorithms and statistical analysis, we can accomplish
 - Scenario Analysis: Simulating the impact of infrastructure changes or policy decisions on traffic patterns to provide evidence-based recommendations for traffic management.
 - Resource Optimization: Assisting in the efficient allocation of resources, such as traffic lights, road maintenance schedules, and public transportation services, by understanding traffic demand dynamics.
 
-### Key takeaways
+<!-- ### Key takeaways -->
 
-- Comprehensive Traffic Analysis: The project provides a detailed analysis of traffic volumes across various regions and time periods, offering a granular view of traffic patterns.
-Identification of Congestion Hotspots: By identifying peak traffic hours and regions with the highest congestion, the project highlights critical areas that require attention for traffic management improvements.
 
-- Predictive Modeling for Traffic Forecasting: The developed predictive models can forecast traffic volumes with a reasonable degree of accuracy. These models are valuable tools for city planners and policymakers, aiding in the strategic planning of infrastructure projects and traffic management initiatives.
-
-- Actionable Insights: The insights generated from this project can inform decisions on where to expand road capacity, improve public transportation, or implement demand management strategies like congestion pricing.
 
 ### Datasets Overview
 
