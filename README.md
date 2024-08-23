@@ -207,81 +207,71 @@ The following abbreviations are used in the datasets :
 ### Organization
 
 #### Repository 
-
-* `model`
-    - joblib dump of final model / model object
-
-* `references`
-    - contains papers / tutorials used in the project
-
-* `src`
-    - Contains the project source code (refactored from the notebooks)
-
-* `.gitignore`
-    - Part of Git, includes files and folders to be ignored by Git version controle
-
 ├── `LICENSE`
 │   - Project license
-├── Makefile
+├── `Makefile`
 │   - Automation script for the project
 ├── `README.md`
 │   - Project landing page (this page)
 ├── `conda.yml`
 │   - Conda environment specification
 ├── `data`
-│   - contains link to copy of the dataset (stored in a publicly accessible Google Drive folder)
-│   - saved copy of aggregated / processed data as long as those are not too large (> 10 MB)
-│   ├── essex_map.json
-│   ├── pd_count_points_cleaned.csv
-│   ├── pd_raw_count_cleaned.csv
-│   ├── uk_data
-│   │   ├── dft_traffic_counts_raw_counts.csv
-│   │   └── local_authority_traffic.csv
-│   ├── uk_shape.shp
-│   └── uk_shapefiles_by_counties
-│       ├── TermsAndConditions.html
-│       ├── infuse_cnty_lyr_2011_clipped.dbf
-│       ├── infuse_cnty_lyr_2011_clipped.prj
-│       ├── infuse_cnty_lyr_2011_clipped.shp
-│       └── infuse_cnty_lyr_2011_clipped.shx
+│   - Contains link to a copy of the dataset (stored in a publicly accessible Google Drive folder)
+│   - Saved copy of aggregated/processed data as long as those are not too large (> 10 MB)
+│   ├── `essex_map.json`
+│   ├── `pd_count_points_cleaned.csv`
+│   ├── `pd_raw_count_cleaned.csv`
+│   ├── `uk_data`
+│   │   ├── `dft_traffic_counts_raw_counts.csv`
+│   │   └── `local_authority_traffic.csv`
+│   ├── `uk_shape.shp`
+│   └── `uk_shapefiles_by_counties`
+│       ├── `TermsAndConditions.html`
+│       ├── `infuse_cnty_lyr_2011_clipped.dbf`
+│       ├── `infuse_cnty_lyr_2011_clipped.prj`
+│       ├── `infuse_cnty_lyr_2011_clipped.shp`
+│       └── `infuse_cnty_lyr_2011_clipped.shx`
 ├── `data_dictionary.md`
 │   - Contains data dictionary for the project
-├── ``docs`
-│   - contains final report which summarises the project
-│   └── figures
-│       └── project-flowchart.svg
+├── `docs`
+│   - Contains the final report which summarizes the project
+│   └── `figures`
+│       └── `project-flowchart.svg`
 ├── `model`
-│   - joblib dump of final model / model object
-│   └── sentiment-model.pkl
+│   - Joblib dump of final model/model object
+│   └── `sentiment-model.pkl`
 ├── `notebooks`
-│   - contains all final notebooks involved in the project
-│   ├── 01-data-loading-cleaning.ipynb
-│   ├── 02-eda.ipynb
-│   ├── 03-pre-processing.ipynb
-│   ├── 04-modelling.ipynb
-│   ├── 05-findings.ipynb
+│   - Contains all final notebooks involved in the project
+│   ├── `01-data-loading-cleaning.ipynb`
+│   ├── `02-eda.ipynb`
+│   ├── `03-pre-processing.ipynb`
+│   ├── `04-modelling.ipynb`
+│   ├── `05-findings.ipynb`
 ├── `references`
-│   - contains papers / tutorials used in the project
-│   └── papers.md
+│   - Contains papers/tutorials used in the project
+│   └── `papers.md`
 ├── `src`
 │   - Contains the project source code (refactored from the notebooks)
-│   ├── __init__.py
-│   ├── data
-│   │   ├── __init__.py
-│   │   └── make_dataset.py
-│   ├── features
-│   │   ├── __init__.py
-│   │   └── build_features.py
-│   ├── models
-│   │   ├── __init__.py
-│   │   ├── predict_model.py
-│   │   └── train_model.py
-│   └── visualization
-│       ├── __init__.py
-│       └── visualize.py
-├── topo_eer.json
-├── topo_wpc.json
-└── traffic_prediction_presentation.pptx
+│   ├── `__init__.py`
+│   ├── `data`
+│   │   ├── `__init__.py`
+│   │   └── `make_dataset.py`
+│   ├── `features`
+│   │   ├── `__init__.py`
+│   │   └── `build_features.py`
+│   ├── `models`
+│   │   ├── `__init__.py`
+│   │   ├── `predict_model.py`
+│   │   └── `train_model.py`
+│   └── `visualization`
+│       ├── `__init__.py`
+│       └── `visualize.py`
+├── `topo_eer.json`
+├── `topo_wpc.json`
+└── `traffic_prediction_presentation.pptx`
+
+... 14 directories, 38 files
+
 
 .... 14 directories, 38 files
 
