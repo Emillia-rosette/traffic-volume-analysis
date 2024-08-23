@@ -15,7 +15,7 @@ This project provides a significant opportunity to apply data science techniques
 By using machine learning algorithms and statistical analysis, we can accomplish the following:
 
 - Traffic Volume Forecasting: Creating models that predict future traffic volumes based on historical data, considering factors like time of day, day of the week, and road characteristics.
-- Peak Traffic Identification: Recognizing peak traffic periods and regions most affected by congestion to enable targeted interventions.
+- Traffic Anomaly Identification: Recognizing anomalies in traffic patterns accross regions most affected by congestion to enable targeted interventions.
 - Scenario Analysis: Simulating the impact of infrastructure changes or policy decisions on traffic patterns to provide evidence-based recommendations for traffic management.
 - Resource Optimization: Assisting in the efficient allocation of resources, such as traffic lights, road maintenance schedules, and public transportation services, by understanding traffic demand dynamics.
 
