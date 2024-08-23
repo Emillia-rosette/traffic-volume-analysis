@@ -149,6 +149,8 @@ The following abbreviations are used in the datasets :
 ...     various data processing steps
 ...     various modelling directions
 ...     various prototyping directions -->
+
+![Project Flowchart](/Users/emillianlandu/Emillia_Nlandu_Capstone_Sprint1/methodology.png)
 +----------------------------+
 |       Data Collection       |
 +----------------------------+
