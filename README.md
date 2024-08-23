@@ -150,7 +150,7 @@ The following abbreviations are used in the datasets :
 ...     various modelling directions
 ...     various prototyping directions -->
 
-![Alt text](Emillia_Nlandu_Capstone_Sprint1/methodology.png)
+![Alt text](/Users/emillianlandu/Emillia_Nlandu_Capstone_Sprint1/methodology.png)
 
 +----------------------------+
 |       Data Collection       |
