@@ -7,7 +7,15 @@ Traffic congestion is a growing issue in urban areas, resulting in longer travel
 
 ### Define the problem
 
-The main challenge addressed by this project is the necessity to analyze and predict traffic patterns to help local autories, communuters, city planners and policymakers optimize traffic flow and infrastructure usage. Due to the complexity of urban traffic systems, influenced by factors such as road length, vehicle types, time of day, and geographic region, a data-driven approach is essential. Understanding these dynamics enables stakeholders to make informed decisions to ease congestion, improve safety, and reduce the environmental impact of road traffic.
+The project aims to address the challenge of analyzing and predicting vehicle counts, speeds, and congestion levels collected at regular intervals (hourly, daily, weekly, or monthly). This analysis is crucial for providing insights to help local authorities, commuters, city planners, and policymakers optimize traffic flow, manage congestion, and enhance infrastructure usage.
+
+Given the complex nature of urban traffic systems, influenced by factors such as time of day, vehicle types, geographic regions, and road lengths, a data-driven approach is essential for capturing the intricate dynamics of traffic flow. Understanding patterns in vehicle counts and congestion allows stakeholders to make informed decisions to:
+- Reduce congestion by identifying high-traffic periods and bottlenecks.
+- Improve safety by managing traffic speeds and identifying areas with congestion-related risks.
+- Minimize environmental impact by easing traffic in areas with high emissions due to slow-moving or idle vehicles.
+- Plan infrastructure enhancements by identifying areas requiring capacity improvements or adjustments.
+
+Predictive modeling of traffic patterns empowers stakeholders to develop actionable strategies for smoother traffic flow, enhanced safety, and better environmental sustainability in urban areas.
 
 ### Data science opportunity
 
@@ -151,61 +159,6 @@ The following abbreviations are used in the datasets :
 ...     various prototyping directions -->
 
 ![Alt text](methodology.png)
-<!-- 
-+----------------------------+
-|       Data Collection       |
-+----------------------------+
-| - Download data from DDT    |
-| - Load raw traffic CSV      |
-+----------------------------+
-            |
-            v
-+----------------------------+
-|       Data Cleaning         |
-+----------------------------+
-| - Handle missing values     |
-| - Normalize and standardize |
-|   data types                |
-| - Remove duplicates         |
-| - Merge datasets            |
-+----------------------------+
-            |
-            v
-+-----------------------------+    +-----------------------------+    +-----------------------------+
-<!-- |     Data Exploration        |-|   Feature Engineering        |--->|    Model Initialization     | -->
-<!-- +-----------------------------+    +-----------------------------+    +-----------------------------+
-| - Perform EDA to identify   |    | - Create new features based  |    | - Select models for training|  -->
-<!-- |   key trends and patterns   |    |   on insights from EDA       |    | - Initialize model parameters|
-| - Visualize data with plots |    | - Transform existing data    |    | - Set up training pipelines |
-|   and charts                |    |   to enhance predictive power|    |                             |
-| - Identify outliers and     |    | - Scale and encode features  |    |                             |
-|   data distribution         |    |   as needed                  |    |                             | -->
-+-----------------------------+    +-----------------------------+    +-----------------------------+
-            |                            |                                    |
-            <!-- v                            v                                    v
-<!-- <!-- <!-- +----------------------------+    +-----------------------------+    +-----------------------------+
-|      Model Selection        |-|      Model Evaluation        |-|        Model Fitting         |  
-<!-- +----------------------------+    +-----------------------------+    +-----------------------------+  -->
-<!-- | - Compare different models  |    | - Train models on training   |    | - Fit models on training     |  -->
-<!-- |   (e.g., Decision Tree,     |    |   dataset                    |    |   dataset                    |
-|   etc.)                     |    | - Use cross-validation to    |    | - Optimize model parameters  |
-| - Select the best models    |    |   assess performance         |    |   and reduce overfitting     |
-|   based on initial metrics  |    | - Evaluate metrics such as   |    | - Perform hyperparameter     |
-|                             |    |   accuracy, RMSE, MAE, etc.  |    |   tuning                     |  -->
-<!-- +----------------------------+    +-----------------------------+    +-----------------------------+
-            |                            |                                    |
-            v                            v                                    v
-+----------------------------+    +-----------------------------+
-|        Model Tuning         |-| Model Deployment & Monitoring|
-<!-- +----------------------------+    +-----------------------------+
-| - Fine-tune model using     |    | - Deploy the model into      |
-|   validation set results    |    |   production environment     |
-| - Perform feature selection |    | - Monitor model performance  |
-| - Re-train model if         |    | - Update the model as new    |
-|   necessary                 |    |   data becomes available     |
-+----------------------------+    +-----------------------------+ --> 
-
-
 
 ### Organization
 
@@ -248,6 +201,7 @@ The following abbreviations are used in the datasets :
   - Contains all final notebooks involved in the project
   - `01-data-loading-cleaning.ipynb`
   - `02-eda.ipynb`
+  - `02-region-east.ipynb`
   - `03-pre-processing.ipynb`
   - `04-modelling.ipynb`
   - `05-findings.ipynb`
