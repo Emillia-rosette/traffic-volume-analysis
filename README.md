@@ -3,31 +3,55 @@
 
 ### Executive Summary
 
-Traffic congestion is a growing issue in urban areas, resulting in longer travel times, increased fuel consumption, and higher environmental pollution. With urbanization and rising vehicle ownership, the strain on existing infrastructure is increasing. This project aims to tackle these problems by using traffic data to understand traffic patterns and predict future traffic volumes. Such insights are crucial for efficient traffic management, infrastructure planning, and ultimately enhancing the quality of life in urban environments.
-
-### Define the problem
+Traffic congestion is a growing issue in urban areas, resulting in longer travel times, increased fuel consumption, and higher environmental pollution. With urbanization and rising vehicle ownership, the strain on existing infrastructure is increasing. This project aims to tackle the problem of traffic congestion in the United Kingdom.
 
 The project aims to address the challenge of analyzing and predicting vehicle counts, speeds, and congestion levels collected at regular intervals (hourly, daily, weekly, or monthly). This analysis is crucial for providing insights to help local authorities, commuters, city planners, and policymakers optimize traffic flow, manage congestion, and enhance infrastructure usage.
 
-Given the complex nature of urban traffic systems, influenced by factors such as time of day, vehicle types, geographic regions, and road lengths, a data-driven approach is essential for capturing the intricate dynamics of traffic flow. Understanding patterns in vehicle counts and congestion allows stakeholders to make informed decisions to:
-- Reduce congestion by identifying high-traffic periods and bottlenecks.
-- Improve safety by managing traffic speeds and identifying areas with congestion-related risks.
-- Minimize environmental impact by easing traffic in areas with high emissions due to slow-moving or idle vehicles.
-- Plan infrastructure enhancements by identifying areas requiring capacity improvements or adjustments.
 
-Predictive modeling of traffic patterns empowers stakeholders to develop actionable strategies for smoother traffic flow, enhanced safety, and better environmental sustainability in urban areas.
+### Define the problem
+
+The project's goal is to analyze and predict vehicle counts collected at regular intervals (hourly, daily, weekly, or monthly). Accurate traffic volume predictions are crucial for local authorities, commuters, and planners to optimize traffic flow, reduce congestion, and improve infrastructure use.
+
+By identifying patterns in vehicle counts and traffic flow dynamics, stakeholders can:
+- Identify high-traffic periods and bottlenecks to reduce congestion.
+- Improve traffic safety by managing speeds and high-risk areas.
+- Plan infrastructure upgrades to better accommodate traffic demand.
 
 ### Data science opportunity
 
-This project provides a significant opportunity to apply data science techniques to real-world traffic data. 
-By using machine learning algorithms and statistical analysis, we can accomplish the following:
+This project presents a valuable opportunity to apply data science techniques to traffic data, enabling the following:
 
-- Traffic Volume Forecasting: Creating models that predict future traffic volumes based on historical data, considering factors like time of day, day of the week, and road characteristics.
-- Traffic Anomaly Identification: Recognizing anomalies in traffic patterns accross regions most affected by congestion to enable targeted interventions.
-- Scenario Analysis: Simulating the impact of infrastructure changes or policy decisions on traffic patterns to provide evidence-based recommendations for traffic management.
-- Resource Optimization: Assisting in the efficient allocation of resources, such as traffic lights, road maintenance schedules, and public transportation services, by understanding traffic demand dynamics.
+Traffic Volume Forecasting: Building models to predict future traffic volumes based on historical data, factoring in time, day, and road characteristics.
+Anomaly Detection: Identifying unusual traffic patterns in congested areas to guide targeted interventions.
+Scenario Analysis: Simulating the effects of infrastructure changes or policies on traffic to support evidence-based decisions.
+Resource Optimization: Improving resource allocation for traffic lights, road maintenance, and public transport by understanding traffic demand dynamics.
 
-<!-- ### Key takeaways -->
+### Key takeaways
+
+**Key Models:**
+
+- XGBoost: Best performance with a SMAPE of 82.93%.
+- Prophet: Handles seasonality well, SMAPE of 99.07%.
+- Naive Model: Simple benchmark, SMAPE of 82.37%.
+
+**Features Used:**
+- Road types, Year averages, Lagged traffic volumes, and Date-based features like day of the week.
+
+**Technologies:**
+- Python language.
+- XGBoost, Prophet, pandas, matplotlib.
+
+**Setup:**
+- Clone repo: git clone https://github.com/brainstation-datascience/capstone-Emillia-rosette.git
+
+**Results:**
+
+- XGBoost performed much better than the other two models, especially with added features like road types and lagged traffic data.
+
+**Future Work:**
+- Add weather, real-time data.
+- Explore deep learning models for more complex patterns (e.g., LSTM).
+
 
 ### Datasets Overview
 
