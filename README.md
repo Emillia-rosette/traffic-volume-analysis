@@ -115,7 +115,7 @@ The following document provides an overview of the road traffic data, including 
 | `Month`                     | The month when the traffic count was recorded.                                                                                                          |
 | `Day_of_Week`               | The day of the week when the traffic count was recorded.                                                                                                |
 | `Day`                       | The specific day of the month when the traffic count was recorded.                                                                                      |
-
+<!-- 
 #### Road Definitions
 - **Major Roads**: Includes motorways and all class ‘A’ roads. These roads usually have high traffic flows and are often the main arteries to major destinations.
   - **Motorways**: Built under the enabling legislation of the Special Roads Act 1949, now consolidated in the Highways Acts of 1959 and 1980. These include major roads of regional and urban strategic importance, often used for long-distance travel.
@@ -126,9 +126,9 @@ The following document provides an overview of the road traffic data, including 
 - **Minor Roads**: These include ‘B’ and ‘C’ classified roads and unclassified roads, all of which are maintained by local authorities.
   - **‘B’ Roads**: In urban areas, can have relatively high traffic flows but are not regarded as significant as 'A' roads.
   - **‘C’ Roads**: Regarded as of lesser importance than ‘B’ or ‘A’ roads, generally having only one carriageway of two lanes and carrying less traffic.
-  - **Unclassified Roads**: Includes residential roads both in urban and rural situations, typically with low traffic flows.
+  - **Unclassified Roads**: Includes residential roads both in urban and rural situations, typically with low traffic flows. -->
 
-#### Types of Vehicle
+<!-- #### Types of Vehicle
 - **All_MV**: All Motor Vehicles
 - **2WMV**: Two-wheeled motor vehicles (e.g., motorcycles)
 - **Car**: Cars and Taxis
@@ -141,7 +141,7 @@ The following document provides an overview of the road traffic data, including 
   - **HGVA5**: 5-articulated axle Heavy Goods Vehicle
   - **HGVA6**: 6 or more articulated axle Heavy Goods Vehicle
 - **PC**: Pedal Cycles
-
+<!--  -->
 
 #### Vehicle Type Definitions
 - **All Motor Vehicles**: All vehicles except pedal cycles.
@@ -151,7 +151,7 @@ The following document provides an overview of the road traffic data, including 
 - **Light Vans**: Goods vehicles not exceeding 3.5 tonnes gross vehicle weight.
 - **Heavy Goods Vehicles (HGV)**: Includes all goods vehicles over 3.5 tonnes gross vehicle weight.
   - **Rigid Heavy Goods Vehicles**: Includes rigid HGVs with varying numbers of axles.
-  - **Articulated Heavy Goods Vehicles**: Classified based on the number of axles on the road.
+  - **Articulated Heavy Goods Vehicles**: Classified based on the number of axles on the road. -->
 
 
 ### Demo
