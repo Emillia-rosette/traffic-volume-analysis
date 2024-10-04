@@ -55,12 +55,12 @@ Resource Optimization: Improving resource allocation for traffic lights, road ma
 
 ### Datasets Overview
 
-... This project uses two primary datasets accessed from the UK Department for Transport. 
+<!-- ... This project uses two primary datasets accessed from the UK Department for Transport.  -->
 
 The following document provides an overview of the road traffic data, including variable definitions, data structures, and methodologies used in the collection and processing of traffic data across the UK.
 [Full Documentation PDF](https://storage.googleapis.com/dft-statistics/road-traffic/all-traffic-data-metadata.pdf)
 
-1. Local Authority Traffic Estimates
+<!-- 1. Local Authority Traffic Estimates
 
 | **Variable Name**        | **Description**                                                                                       |
 |--------------------------|-------------------------------------------------------------------------------------------------------|
@@ -71,9 +71,9 @@ The following document provides an overview of the road traffic data, including 
 | `link_length_km`          | Total length of the road network road link for that local authority (in kilometres).                  |
 | `link_length_miles`       | Total length of the network road link for that local authority (in miles).                            |
 | `cars_and_taxis`          | Annual road traffic estimate for cars and taxis in the given local authority.                         |
-| `all_motor_vehicles`      | Annual road traffic estimate for all motor vehicles in the given local authority.                     |
+| `all_motor_vehicles`      | Annual road traffic estimate for all motor vehicles in the given local authority.                     | -->
 
-2. Raw Traffic Count Data
+1. Traffic Count Data
 
 | **Variable Name**           | **Description**                                                                                                                                       |
 |-----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
