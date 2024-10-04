@@ -116,19 +116,6 @@ The following document provides an overview of the road traffic data, including 
 | `Day_of_Week`               | The day of the week when the traffic count was recorded.                                                                                                |
 | `Day`                       | The specific day of the month when the traffic count was recorded.                                                                                      |
 
-
-The following abbreviations are used in the datasets :
-
-| **Category** | **Description**                           |
-|--------------|-------------------------------------------|
-| `PM`         | M or Class A Principal Motorway           |
-| `PA`         | Class A Principal road                    |
-| `TM`         | M or Class A Trunk Motorway               |
-| `TA`         | Class A Trunk road                        |
-| `M`          | Minor road                                |
-| `MB`         | Class B road                              |
-| `MCU`        | Class C road or Unclassified road         |
-
 #### Road Definitions
 - **Major Roads**: Includes motorways and all class ‘A’ roads. These roads usually have high traffic flows and are often the main arteries to major destinations.
   - **Motorways**: Built under the enabling legislation of the Special Roads Act 1949, now consolidated in the Highways Acts of 1959 and 1980. These include major roads of regional and urban strategic importance, often used for long-distance travel.
