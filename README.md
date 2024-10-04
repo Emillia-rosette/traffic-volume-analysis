@@ -143,7 +143,7 @@ The following document provides an overview of the road traffic data, including 
 - **PC**: Pedal Cycles
 <!--  -->
 
-#### Vehicle Type Definitions
+<!-- #### Vehicle Type Definitions
 - **All Motor Vehicles**: All vehicles except pedal cycles.
 - **Cars and Taxis**: Includes passenger vehicles with nine or fewer seats, three-wheeled cars, and four-wheel-drive ‘sports utility vehicles’ (SUV).
 - **Motorcycles etc**: Includes motorcycles, scooters, and mopeds.
@@ -151,7 +151,7 @@ The following document provides an overview of the road traffic data, including 
 - **Light Vans**: Goods vehicles not exceeding 3.5 tonnes gross vehicle weight.
 - **Heavy Goods Vehicles (HGV)**: Includes all goods vehicles over 3.5 tonnes gross vehicle weight.
   - **Rigid Heavy Goods Vehicles**: Includes rigid HGVs with varying numbers of axles.
-  - **Articulated Heavy Goods Vehicles**: Classified based on the number of axles on the road. -->
+  - **Articulated Heavy Goods Vehicles**: Classified based on the number of axles on the road. --> -->
 
 
 ### Demo
@@ -161,7 +161,8 @@ The following document provides an overview of the road traffic data, including 
 ...     Interactive demo (e.g., stremlit app)
 ...     Short video of users trying out the solution -->
 
-
+![alt text](<Emillia-rosette_Nlandu_Capstone Assets_Screenshots/volume.png>)
+text
 ### Methodology
 
 <!-- ... High-level diagrams of entire process:
