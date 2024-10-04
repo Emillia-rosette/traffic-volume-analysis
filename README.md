@@ -161,7 +161,8 @@ The following document provides an overview of the road traffic data, including 
 ...     Interactive demo (e.g., stremlit app)
 ...     Short video of users trying out the solution -->
 
-![alt text](<Emillia-rosette_Nlandu_Capstone Assets_Screenshots/volume.png>)
+<img width="1083" alt="volume" src="https://github.com/user-attachments/assets/4bc3db70-41f6-4e9e-b489-c103005a86db">
+
 
 ### Methodology
 
