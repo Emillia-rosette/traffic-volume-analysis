@@ -147,10 +147,10 @@ The following document provides an overview of the road traffic data, including 
 - **All Motor Vehicles**: All vehicles except pedal cycles.
 - **Cars and Taxis**: Includes passenger vehicles with nine or fewer seats, three-wheeled cars, and four-wheel-drive ‘sports utility vehicles’ (SUV).
 - **Motorcycles etc**: Includes motorcycles, scooters, and mopeds.
-- **Buses and Coaches**: Includes all public service vehicles and works buses over 3.5 tonnes.
+- **Buses and Coaches**: This includes all public service vehicles and works buses that weigh over 3.5 tonnes.
 - **Light Vans**: Goods vehicles not exceeding 3.5 tonnes gross vehicle weight.
-- **Heavy Goods Vehicles (HGV)**: Includes all goods vehicles over 3.5 tonnes gross vehicle weight.
-  - **Rigid Heavy Goods Vehicles**: Includes rigid HGVs with varying numbers of axles.
+**Heavy Goods Vehicles (HGV)**: This category includes all goods vehicles with a gross vehicle weight of over 3.5 tonnes.
+  - **Rigid Heavy Goods Vehicles**: These include rigid HGVs with varying axle numbers.
   - **Articulated Heavy Goods Vehicles**: Classified based on the number of axles on the road. --> -->
 
 
@@ -158,15 +158,12 @@ The following document provides an overview of the road traffic data, including 
 <!-- 
 ... Show your work:
 ...     Data visualisations
-...     Interactive demo (e.g., stremlit app)
+...     Interactive demo (e.g., streamlet app)
 ...     Short video of users trying out the solution -->
-
-<img width="1083" alt="volume" src="https://github.com/user-attachments/assets/4bc3db70-41f6-4e9e-b489-c103005a86db">
-
 
 ### Methodology
 
-<!-- ... High-level diagrams of entire process:
+<!-- ... High-level diagrams of the entire process:
 ...     various data processing steps
 ...     various modelling directions
 ...     various prototyping directions -->
