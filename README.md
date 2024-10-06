@@ -1,45 +1,48 @@
-## Traffic Trends Across UK Regions
-=========================
+## Traffic Volume Analysis - UK Regions
+===================================
 
 ### Executive Summary
 
-Traffic congestion is a growing issue in urban areas, leading to longer travel times, increased fuel consumption, and higher environmental pollution. This project leverages a time series approach to analyze and forecast traffic patterns across UK regions, examining factors like road type, road condition, and road class. The project aims to provide a comprehensive analysis of traffic patterns and trends, enabling policymakers to make informed decisions regarding traffic management and infrastructure investments.
+Traffic congestion is a growing issue in urban areas, leading to longer travel times, increased fuel consumption, and higher environmental pollution. This project focuses on analyzing traffic patterns across UK regions, examining factors like road type, road condition, and road class. The aim is to provide a comprehensive analysis of traffic patterns and trends to help policymakers make informed decisions regarding traffic management and infrastructure investments.
 
 ### Problem Statement
 
-The project's goal is to accurately predict traffic volumes by analyzing vehicle counts collected at regular intervals (monthly). By identifying patterns in vehicle counts and traffic flow dynamics, we aim to help local authorities optimize traffic flow, reduce congestion, and improve infrastructure. The project addresses the challenge of predicting traffic volumes across different regions using time series modeling to inform better traffic management and infrastructure planning.
+The primary goal of this project is to perform a detailed analysis of traffic volumes by exploring vehicle counts collected at regular intervals (monthly). By identifying patterns in vehicle counts and traffic flow dynamics, the project seeks to provide insights into traffic behavior, which can support local authorities in optimizing traffic flow, reducing congestion, and improving infrastructure.
 
 ### Data science opportunity
-This project presents a data opportunity to leverage historical traffic patterns for predictive modeling, enabling more informed decisions in traffic management, congestion reduction, and infrastructure optimization. By applying data science techniques, the project aims to build models that forecast future traffic volumes based on historical data, helping stakeholders identify trends and optimize resources.
+
+This project presents an opportunity to leverage historical traffic data to uncover insights into traffic patterns and volumes across UK regions. The focus is on exploring trends and patterns, identifying peak periods, and understanding the impact of various factors such as road types and traffic conditions on overall traffic volumes.
 
 ### Key takeaways
 
-**Key Models:**
+**Key Insights:**
 
-- Naive Model: SMAPE of 82.37%
-- Prophet: SMAPE of 99.07%
-- XGBoost: SMAPE of 82.93% (best performance)
-
-**Features Used:**
-- Road types, Year averages, Lagged traffic volumes, and Date-based features like day of the week.
+- Seasonal trends in traffic volumes across different road types and regions.
+- Analysis of traffic behavior during holidays and special events.
+- Insights into how traffic volumes vary across different regions and road classifications.
 
 **Technologies:**
-- Python (pandas, XGBoost, Prophet, matplotlib)
+- Python 
+- Data visualization: Plotly and Matplotlib 
 
 **Setup:**
 - Clone repo: git clone https://github.com/brainstation-datascience/capstone-Emillia-rosette.git
 
 **Results:**
 
-- XGBoost performed much better than the other two models, especially with added features like road types and lagged traffic data.
+- The analysis provides insights into the patterns of traffic volumes, helping stakeholders to identify trends and make informed decisions for traffic management and road infrastructure planning
 
 **Future Work:**
-- Add weather, real-time data.
-- Explore deep learning models for more complex patterns (e.g., LSTM).
+- Incorporate real-time traffic data.
+- Analyze the effect of road incidents and disruptions on traffic volumes.
+- Explore models suhc Prophet, XGBoost, and LSTM for more complex patterns.
 
 
 ### Datasets Overview
-This project uses a comprehensive traffic dataset collected from the UK Department for Transport. The dataset includes vehicle counts by road type, direction, and location. Below is a summary of key variables used:
+This project uses a comprehensive traffic dataset collected from the UK Department for Transport. The dataset includes vehicle counts by road type, direction, and location.
+
+Below is a summary of key variables used:
+
 
 | **Variable Name**           | **Description**                               |
 |-----------------------------|-----------------------------------------------|
@@ -62,37 +65,24 @@ For more detailed documentation, refer to the [UK Traffic Data Documentation](ht
 ...     Interactive demo (e.g., stremlit app)
 ...     Short video of users trying out the solution -->
 
-![alt text](<Emillia-rosette_Nlandu_Capstone Assets_Screenshots/volume.png>)
-text
+
 ### Methodology
 
 ![Alt text](methodology.png)
 
 ### Project Structure
-│
-├── **.devcontainer/**            # Development container configuration
+
 ├── **.github/**                  # GitHub workflows and settings
-├── **.ipynb_checkpoints/**       # Jupyter notebook checkpoints
-├── **.vscode/**                  # VS Code workspace settings
 ├── **data/**                     # Contains datasets and processed data files
 ├── **docs/**                     # Documentation files for the project
 ├── **Emillia-rosette_Nlandu_Capstone Assets/** # Project assets like images and presentations
-├── **model/**                    # Folder for storing trained models and artifacts
-├── **notebooks/**                # Jupyter notebooks for data analysis and modeling
+├── **notebooks/**                # Jupyter notebooks for data analysis
 ├── **references/**               # Research papers and additional references
-├── **src/**                      # Source code for data processing and modeling
+├── **src/**                      # Source code for data processing
 ├── **.gitignore**                # Specifies files to be ignored by Git
 ├── **conda.yml**                 # Conda environment specification file
-├── **Correlation.png**           # Correlation plot image
-├── **data_dictionary.md**        # Data dictionary for the project
-├── **essex_map.json**            # GeoJSON file for mapping
-├── **final_presentation.pdf**    # Final project presentation (PDF)
-├── **final_presentation.pptx**   # Final project presentation (PowerPoint)
-├── **LICENSE**                   # License file for the project
-├── **Makefile**                  # Makefile for project automation
 ├── **methodology.png**           # Methodology flowchart image
-├── **notebooks.zip**             # Zipped folder of project notebooks
-└── **README.md**                 # Project readme file
+├── **README.md**                 # Project readme file
 
 
 ### Credits & References
