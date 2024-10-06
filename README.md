@@ -70,13 +70,7 @@ For more detailed documentation, refer to the [UK Traffic Data Documentation](ht
 text
 ### Methodology
 
-<!-- ... High-level diagrams of entire process:
-...     various data processing steps
-...     various modelling directions
-...     various prototyping directions -->
-
 ![Alt text](methodology.png)
-
 
 ### Project Structure
 │
