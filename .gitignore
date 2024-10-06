@@ -1,9 +1,15 @@
-# don't upload data files
+# Ignore CSV and Pickle files
 *.csv
+*.pkl
+
+# Ignore data and notebooks folders
 data/
 notebooks_2/
+
+# Ignore model folder
 model/
 
-# Jupyter Notebook
-.ipynb_checkpoints
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
 
